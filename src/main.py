@@ -29,7 +29,7 @@ class Main:
             "trainer": {"evaluate_inverse": False},
             'train': {
                 'entropy_beta': 0.0,
-                'validate_metric': 'MAP'
+                'validate_metric': 'MRR'
             },
             "pretrain": {
                 "keep_embed": False,
